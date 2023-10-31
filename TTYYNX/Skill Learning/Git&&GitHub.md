@@ -170,4 +170,4 @@ git tag origin :refs/tags/tagname 删除远程仓库标签内容
 git tag -d tagname 删除本地标签
 ```
 
-- [ ] 笔记提交到github
+- [x] 笔记提交到github
