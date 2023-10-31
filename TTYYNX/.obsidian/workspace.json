@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "6cef28b445f3e0c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef0ddfe1adfeaaab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84a54fda75609683",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skill Learning/MarkDown格式obsidian版.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9776d848351484c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skill Learning/Git&&GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc6a217a0f26cb41",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3746b1b075722c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7abcf6d42e466cd6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04f7ec2763f1adb3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "594d255e37d6007d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21717fc94898064b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7aaa16195104836e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c880c4c912f09d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Skill Learning/Git&&GitHub.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e848aff0535d282",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Skill Learning/Git&&GitHub.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15416e077e660b4b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba62095a1b2f392c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Skill Learning/Git&&GitHub.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "9776d848351484c4",
+  "lastOpenFiles": [
+    "Skill Learning/MarkDown格式obsidian版.md",
+    "Skill Learning/Git&&GitHub.md",
+    "Skill Learning/大数据学习路线.md",
+    "Skill Learning/MySQL.md",
+    "Obsidian Skills/Obsdian使用.md",
+    "Obsidian Skills/笔记本外接显示器.md",
+    "Skill Learning/Assets/Pasted image 20231029154731.png",
+    "Skill Learning/Assets/Pasted image 20231029154651.png",
+    "Skill Learning/Assets/Pasted image 20231029100532.png",
+    "Skill Learning/Assets/Pasted image 20231029100509.png",
+    "Skill Learning/Assets/Pasted image 20231029100436.png",
+    "MOC Mermiad 教程 Obsidian版.md",
+    "Skill Learning/Assets/Pasted image 20231028105144.png",
+    "Pasted image 20231028104857.png",
+    "Skill Learning/GitAssets",
+    "Skill Learning/未确认 786155.crdownload",
+    "Skill Learning/Git教程.md",
+    "Skill Learning/Assets/Pasted image 20231024154526.png",
+    "Skill Learning/GitAssets/git流程_详解.png",
+    "Skill Learning/GitAssets/工具差异.png",
+    "assets/svn.jpg.md",
+    "assets",
+    "Skill Learning/GitAssets",
+    "未命名",
+    "Skill Learning/未命名.md",
+    "电脑调试技巧",
+    "电脑调试",
+    "Obsidian Skills",
+    "Skill Learning/MySQL^约束.md",
+    "Skill Learning/AttachMent/image.png.crdownload",
+    "Skill Learning/12313212.md"
+  ]
+}

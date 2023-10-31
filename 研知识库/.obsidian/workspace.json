@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "dbf01ec0b9b8d554",
+    "type": "split",
+    "children": [
+      {
+        "id": "70737595a4ad8195",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f32ba1bb17b933ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软著/软著说明书结构.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79cd47d134a109ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软著/构成.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfd18873e92f9524",
+    "type": "split",
+    "children": [
+      {
+        "id": "78c058c114a11137",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eca053f60f407296",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c3523a6cc5b7fe3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#基于深度学习的网络安全风险自动化渗透测试系统",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "86c4bffae7a654b3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "865d813ef97e91c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e9828c1b3df5431",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45949a6c5bf3f0fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "软著/构成.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb9ab2c6795affac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "软著/构成.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8452b43fd95410c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "334badad9fbc769c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "软著/构成.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "79cd47d134a109ed",
+  "lastOpenFiles": [
+    "软著/软著说明书结构.md",
+    "软著/构成.md",
+    "软著/未命名.md",
+    "软著/AttachMent",
+    "软著/Template",
+    "软著",
+    "未命名 1.md",
+    "MySQL.md"
+  ]
+}
