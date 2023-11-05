@@ -1,6 +1,6 @@
 {
   "trashOption": "local",
-  "attachmentFolderPath": "Skill Learning/Assets",
+  "attachmentFolderPath": "./",
   "newFileLocation": "current",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true

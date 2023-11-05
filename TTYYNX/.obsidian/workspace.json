@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ef0ddfe1adfeaaab",
+        "id": "6d7bdb9c0a0efd2a",
         "type": "tabs",
         "children": [
           {
-            "id": "84a54fda75609683",
+            "id": "5182cb059046ff22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill Learning/MarkDown格式obsidian版.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9776d848351484c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Skill Learning/Git&&GitHub.md",
+                "file": "MySQL/MySQL基础篇.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin-desc.png",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill Learning/Git&&GitHub.md",
+                "file": "MySQL/MySQL基础篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill Learning/Git&&GitHub.md",
+                "file": "MySQL/MySQL基础篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill Learning/Git&&GitHub.md"
+                "file": "MySQL/MySQL基础篇.md"
               }
             }
           }
@@ -147,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,38 +147,46 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "9776d848351484c4",
+  "active": "7abcf6d42e466cd6",
   "lastOpenFiles": [
-    "Skill Learning/MarkDown格式obsidian版.md",
-    "Skill Learning/Git&&GitHub.md",
-    "Skill Learning/大数据学习路线.md",
-    "Skill Learning/MySQL.md",
-    "Obsidian Skills/Obsdian使用.md",
-    "Obsidian Skills/笔记本外接显示器.md",
-    "Skill Learning/Assets/Pasted image 20231029154731.png",
-    "Skill Learning/Assets/Pasted image 20231029154651.png",
-    "Skill Learning/Assets/Pasted image 20231029100532.png",
-    "Skill Learning/Assets/Pasted image 20231029100509.png",
-    "Skill Learning/Assets/Pasted image 20231029100436.png",
-    "MOC Mermiad 教程 Obsidian版.md",
-    "Skill Learning/Assets/Pasted image 20231028105144.png",
-    "Pasted image 20231028104857.png",
-    "Skill Learning/GitAssets",
-    "Skill Learning/未确认 786155.crdownload",
-    "Skill Learning/Git教程.md",
-    "Skill Learning/Assets/Pasted image 20231024154526.png",
-    "Skill Learning/GitAssets/git流程_详解.png",
-    "Skill Learning/GitAssets/工具差异.png",
-    "assets/svn.jpg.md",
+    "assets/大数据技术栈思维导图.png",
+    "assets/Pasted image 20231029100532.png",
+    "assets/Pasted image 20231105101729.png",
+    "assets/Pasted image 20231029154651.png",
+    "assets/Pasted image 20231029154731.png",
+    "assets/Pasted image 20231029100509.png",
+    "assets/Pasted image 20231029100436.png",
+    "assets/Pasted image 20231028105144.png",
+    "assets/Pasted image 20231024154526.png",
     "assets",
-    "Skill Learning/GitAssets",
-    "未命名",
+    "Obsidian学习/Remotely save 插件使用.md",
+    "Obsidian学习/Assets/Pasted image 20231105110854.png",
+    "Obsidian学习/Assets/Pasted image 20231105110808.png",
+    "MySQL/MySQL基础篇.md",
+    "Obsidian学习/Obsdian使用.md",
+    "Obsidian学习/number heading 自动编号插件.md",
+    "Obsidian学习/MarkDown格式obsidian版.md",
+    "Obsidian学习/Pasted image 20231105110031.png.md",
+    "Obsidian学习/Pasted image 20231105110209.png.md",
+    "Other Assets",
+    "Git&Github/Assets",
+    "Git&Github/Git&GitHub.md",
+    "Git&Github",
+    "Obsidian学习/Assets",
+    "Obsidian学习/Assets",
+    "assets/svn.jpg.md",
+    "Obsidian Skills/笔记本外接显示器.md",
+    "Obsidian Skills/自动编号插件.md",
+    "电子书籍/《Linux就该这么学》正式版电子书.pdf",
+    "电子书籍",
+    "新建文件夹",
+    "Skill Learning/大数据技术栈思维导图.md",
+    "Skill Learning/大数据技术栈思维导图.png.crdownload",
+    "Skill Learning/大数据学习路线.md",
+    "MOC Mermiad 教程 Obsidian版.md",
+    "Skill Learning/Git教程.md",
     "Skill Learning/未命名.md",
-    "电脑调试技巧",
-    "电脑调试",
-    "Obsidian Skills",
     "Skill Learning/MySQL^约束.md",
-    "Skill Learning/AttachMent/image.png.crdownload",
     "Skill Learning/12313212.md"
   ]
 }
