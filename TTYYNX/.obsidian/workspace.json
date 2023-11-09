@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6d7bdb9c0a0efd2a",
+        "id": "4aa95a2db34ed84a",
         "type": "tabs",
         "children": [
           {
-            "id": "5182cb059046ff22",
+            "id": "bab0716590b308ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,6 +63,18 @@
             "state": {
               "type": "bookmarks",
               "state": {}
+            }
+          },
+          {
+            "id": "30100d70ef77ed40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/MySQL基础篇.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -128,13 +140,33 @@
                 "file": "MySQL/MySQL基础篇.md"
               }
             }
+          },
+          {
+            "id": "a51627dcd7ada69d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "MySQL/Assets/大数据技术栈思维导图.png"
+              }
+            }
+          },
+          {
+            "id": "6e900b4c1be9bcbb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "MySQL/Assets/大数据技术栈思维导图.png"
+              }
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 565.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,25 +179,26 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "7abcf6d42e466cd6",
+  "active": "bab0716590b308ed",
   "lastOpenFiles": [
+    "MySQL/Pasted image 20231108230402.png",
+    "MySQL/Assets/Pasted image 20231108222956.png",
+    "MySQL/Assets/Pasted image 20231108222146.png",
+    "MySQL/Pasted image 20231108221951.png",
+    "MySQL/MySQL基础篇.md",
+    "MySQL/Pasted image 20231108222034.png",
+    "MySQL/Assets/Pasted image 20231106215427.png",
+    "MySQL/Assets/Pasted image 20231106155539.png",
+    "MySQL/MySQL进阶篇.md",
+    "Obsidian学习/MarkDown格式obsidian版.md",
+    "MySQL/Assets/大数据技术栈思维导图.png",
+    "MySQL/Assets/Pasted image 20231105152001.png",
+    "MySQL/Assets/Pasted image 20231105111921.png",
     "assets/大数据技术栈思维导图.png",
-    "assets/Pasted image 20231029100532.png",
-    "assets/Pasted image 20231105101729.png",
-    "assets/Pasted image 20231029154651.png",
-    "assets/Pasted image 20231029154731.png",
-    "assets/Pasted image 20231029100509.png",
-    "assets/Pasted image 20231029100436.png",
-    "assets/Pasted image 20231028105144.png",
-    "assets/Pasted image 20231024154526.png",
     "assets",
     "Obsidian学习/Remotely save 插件使用.md",
-    "Obsidian学习/Assets/Pasted image 20231105110854.png",
-    "Obsidian学习/Assets/Pasted image 20231105110808.png",
-    "MySQL/MySQL基础篇.md",
     "Obsidian学习/Obsdian使用.md",
     "Obsidian学习/number heading 自动编号插件.md",
-    "Obsidian学习/MarkDown格式obsidian版.md",
     "Obsidian学习/Pasted image 20231105110031.png.md",
     "Obsidian学习/Pasted image 20231105110209.png.md",
     "Other Assets",

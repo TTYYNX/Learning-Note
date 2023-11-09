@@ -5,6 +5,7 @@ number headings: auto, first-level 1, max 6, start-at 1, _.1.1.
 [安装教程](https://blog.csdn.net/weixin_47406082/article/details/131867849?spm=1001.2014.3001.5502)
 
 # 二、基础内容
+[视频教程](https://www.bilibili.com/video/BV1Kr4y1i7ru?p=1&vd_source=7664b55184fd63da03a03ef6c9be4310)
 
 ## 1. 数据模型
 
@@ -257,21 +258,29 @@ select 字段列表 from 表名 limit 起始索引，查询记录数;
 
 ##### 2.5.1.1. 查询用户
 
+```SQL
 use mysql;
 
 select * from user;
 
+```
 ##### 2.5.1.2. 创建用户
 
+```SQL
 create user '用户名' @ '主机名' identified by '密码';
+```
 
 ##### 2.5.1.3. 修改用户密码
 
+```SQL
 alter user '用户名' @ '主机名' identified with mysql_native_password by '新密码';
+```
 
 ##### 2.5.1.4. 删除用户
 
+```SQL
 drop user '用户名' @ '主机名';
+```
 
 ##### 2.5.1.5. 注意事项
 
@@ -281,15 +290,21 @@ drop user '用户名' @ '主机名';
 
 ##### 2.5.2.1. 查询权限
 
+```SQL
 show grants for '用户名' @ '主机名';
+```
 
 ##### 2.5.2.2. 授予权限
 
+```SQL
 grants 权限列表 on 数据库名.表名 to '用户名' @ '主机名';
+```
 
 ##### 2.5.2.3. 撤销权限
 
+```SQL
 revoke 权限列表 on 数据库名.表名 from '用户名' @ '主机名';
+```
 
 ##### 2.5.2.4. 注意事项
 
@@ -356,22 +371,25 @@ revoke 权限列表 on 数据库名.表名 from '用户名' @ '主机名';
 ![](https://cdn.nlark.com/yuque/0/2023/png/39043900/1697032208140-69eb6112-267d-41a2-8a7e-a9fc0f37f6e0.png)
 
 ### 4.4. 外键约束
-
-^f7c1dd
-
+``注：外键是用来控制数据库中数据的完整性的，就是当你对一个表的数操作时，和它关联的一个或多个表的数据同时发生改变。
 #### 4.4.1. 语法
 
+```SQL
 alter table 表名 add constraint 外键名称 foreign key (外键字段名) reference 主表(主表列名); -- 添加外键
 
 alter table 表名 drop foreign key 外键名称; -- 删除外键
 
+```
 #### 4.4.2. 外键的删除更新行为
 
 ![](https://cdn.nlark.com/yuque/0/2023/png/39043900/1697120858139-b4f9649b-edca-4ea5-94f5-113cba673dbb.png)
 
+语句如下：
+```SQL
 alter table 表名 add constraint 外键名称 foreign key(外键字段名) reference 主表(主列表名) on update cascade on delete cascade;
 
 alter table 表名 add constraint 外键名称 foreign key(外键字段名) reference 主表(主列表名) on update set null on delete set null;
+```
 
 #### 4.4.3. 实例
 
@@ -380,7 +398,10 @@ alter table 表名 add constraint 外键名称 foreign key(外键字段名) refe
 ![](https://cdn.nlark.com/yuque/0/2023/png/39043900/1697120889943-10edcffe-728f-40f0-86fa-57e0142c2c44.png)
 
 ## 5. 多表查询
-
+``注：
+``1、在查询时，先思考问题涉及几个表，连接条件、查询条件又是什么。
+``2、选择查询方式。若查询较复杂，那么在查询时分步操作。
+``3、若需要查询n张表，那么连接条件至少会有n-1个条件，并且在梳理条件时，以两张表为单位去梳理。
 ### 5.1. 多表关系
 
 #### 5.1.1. 一对多
@@ -391,7 +412,7 @@ alter table 表名 add constraint 外键名称 foreign key(外键字段名) refe
 需要中间表，通过中间表引入外键来控制多对多关系，着重理解外键的作用[[MySQL基础篇#^a19663|外键约束的作用]]
 
 示例代码:
-```
+```SQL
 create table student(  
     id int auto_increment primary key comment '主键ID',  
     name varchar(10) comment '姓名',  
@@ -420,7 +441,7 @@ create table student_course(
 通常有两张表（以用户表为例），一张表的信息较为基本，另外一张表较为详细，详细的那个表设有一个id字段且unique，将此字段设置外键绑定基本表。
 
 示例代码:
-```
+```SQL
 create table tb_user(  
     id int auto_increment primary key comment '主键ID',  
     name varchar(20) comment '姓名',  
@@ -444,10 +465,262 @@ create table tb_user_edu(
 多表查询即在多张表中查询数据，往往需要加上一些约束条件。
 #### 5.2.1. 笛卡尔积
 指两个集合的所有组合情况，在多表查询中往往需要消除无效的笛卡尔积。
+#### 5.2.2. 分类
+![](Pasted%20image%2020231105111921.png)
+### 5.3. 内连接
+``注：
+``1、通常当表名比较长时会起一个别名。
+``2、在内连接中on和where没有区别。
+#### 5.3.1. 隐式查询
+```SQL
+select 字段名1，字段名2…… from 表名1，表名2 where 条件
+```
+示例代码如下:
+```SQL
+-- 表 emp,dept
+-- 连接条件:emp.dept_id  = dept.id  
+  
+-- 内连接隐式查询  
+select e.name,d.name from emp e ,dept d where e.dept_id = d.id;
+```
+#### 5.3.2. 显式查询
+```SQL
+select 字段名1，字段名2…… from 表1 (inner) join 表2 on 条件
+（其中inner可省略）
+```
+示例代码如下:
+```SQL
+-- 表 emp,dept
+-- 连接条件:emp.dept_id  = dept.id
 
+-- 内连接显式查询  
+select e.name,d.name from emp e (inner) join dept d on e.dept_id = d.id;  
+  
+select e.name,d.name from emp e join dept d on d.id = e.dept_id;
+```
+### 5.4. 外连接
+[on和where的区别](https://juejin.cn/post/6990283379841171493)
+``注：在外连接中连接条件用On，查询条件用where。
+#### 5.4.1. 左外连接
+查询语法如下：
+```SQL
+select 字段1，字段2…… from 表1 left (outer) join 表2 on 连接条件 
+```
+作用范围是表1的全部内容以及表2和表1的交集
+示例代码如下：
+```SQL
+-- 1.查询emp表的所有数据，和对应的部门信息(左外连接)  
+-- 表 emp ，dept  
+-- 条件 emp.dept_id = dept.id
 
+-- 左外连接  
+select e.*,d.name from emp e left (outer) join dept d on e.dept_id = d.id;  
+  
+select e.*,d.name from emp e left join dept d on e.dept_id = d.id;
+```
+#### 5.4.2. 右外连接
+```SQL
+select 字段1，字段2…… from 表1 right(outer) join 表2 on 条件
+```
+作用范围是表2的全部内容以及表1和表2的交集
+示例代码如下:
+```SQL
+-- 2.查询dept表的所有数据，和对应的员工信息 
+-- 表 emp ，dept  
+-- 条件 emp.dept_id = dept.id
 
+-- 右外连接  
+select d.*,e.* from emp e right outer join dept d on e.dept_id = d.id;
+```
+### 5.5. 自连接
+``根据需求自连接既可使用外连接的写法又可使用内连接的写法。
+查询语法如下：
+```SQL
+select 字段1,字段2…… from 表T a,表T b where 条件(内连接写法);
+select 字段1,字段2…… from 表T a left join 表T on 条件(外连接写法)
+```
+示例代码如下：
+```SQL
+-- 2.查询dept表的所有数据，和对应的员工信息  
+-- 右外连接  
+select d.*,e.* from emp e right outer join dept d on e.dept_id = d.id;  
+  
+-- 自连接  想象两张表的数据变化3D图像
+-- 1、查询员工及其领导的名字 (内连接写法)  
+select a.name,b.name from emp a, emp b where a.managerid = b.id;  
+  
+-- 2、查询所有员工emp及其领导名字emp，如果员工没有领导也需要查询出来（外连接写法）  
+select a.name '员工',b.name '领导' from emp a left join emp b on a.managerid = b.id;
+```
 
+### 5.6. 联合查询-union,union all
+``对于联合查询，就是把多次查询的结果结合起来，然后成为一个新的结果集。
+查询语法如下:
+```SQL
+select 字段1，字段2…… from 表A ……
+union(all)
+select 字段1，字段2…… from 表A ……
+```
+示例代码如下：
+```SQL
+-- 联合查询  
+-- 条件：1、查询薪资小于5000的员工  
+--      2、查询年龄大于50的员工  
+select * from emp where salary < 5000  
+union  
+select * from emp where age > 50;
+```
+``注意事项：
+``1、对于联合查询的表的列数要一致，且字段数量也需要一致。
+``2、union关键字会将结果去重，union all则是将结果全部显示。
+### 5.7. 子查询
+#### 5.7.1. 概念
+如下图:
+![](Pasted%20image%2020231106155539.png)
+#### 5.7.2. 标量子查询
+``该查询模式代表查询返回的结果为单个值，其中该查询常用的操作符有 = > < >= <= <>(不等于)等，适合查询某个对象的单个数据。
+示例代码如下：
+```SQL
+-- 1、查询"销售部"的所有员工信息  
+select * from emp where emp.dept_id = (select dept.id from dept where dept.name = '销售部');  
+  
+-- 2、查询在"方东白"入职后的员工信息  
+select * from emp where entrydate > (select entrydate from emp where name = '方东白');
+```
+#### 5.7.3. 列子查询
+``该查询模式代表查询返回的结果为一列值（多行），其中该查询常用的操作符有 IN、NOT IN、ANY、SOME、ALL，适合查多个对象的单个数据。
+操作符解释如图所示：
+![](Pasted%20image%2020231106215427.png)
+示例代码如下：
+```SQL
+-- 列子查询  
+-- 1、查询"销售部"和"市场部"的所有员工信息  
+select id from dept where name = '销售部' or name = '市场部';  
+-- in的作用是集合里的内容只要存在，就会查询到  
+select * from emp where dept_id in (select id from dept where name = '销售部' or name = '市场部');  
+  
+-- 2、查询比财务部所有人工资高的员工信息  
+select id from dept where name = '财务部';  
+select salary from emp where dept_id = (select id from dept where name = '财务部');  
+select * from emp where salary > all (select salary from emp where dept_id = (select id from dept where name = '财务部') ) ;  
+  
+-- 3、查询比"研发部"任意一人工资高的员工  
+select id from dept where name = '研发部';  
+select salary from emp where dept_id = (select id from dept where name = '研发部');  
+select * from emp where salary > any (select salary from emp where dept_id = (select id from dept where name = '研发部'));  
+-- 关于any和all的详解见谷歌收藏夹
+```
+#### 5.7.4. 行子查询
+``该查询模式代表查询返回的结果为一行（多列），其中该查询常用的操作符有 =、<>、IN、NOT IN，适合查一个对象的多个数据。
+示例代码如下：
+```SQL
+-- 行子查询  
+-- 查询薪资与领导和张无忌一样的员工 的信息  
+select salary,managerid from emp where name = '张无忌';  
+select * from emp where (salary,managerid) = (select salary,managerid from emp where name = '张无忌');
+```
+#### 5.7.5. 表子查询
+``该查询模式代表查询返回的结果为多行多列的表，其查询结果经常作为临时表写在 from 后面与其他表一起查询。
+示例代码如下：
+```SQL
+-- 表子查询  
+-- 1、查询与"鹿杖客"，"宋远桥"的职位和薪资相同的员工信息  
+select job,salary from emp where name = '鹿杖客' or name = '宋远桥';  
+-- 将(job,salary)这组字段看为一个字段，表查询即退化为列查询  
+select * from emp where (job,salary) in (select job,salary from emp where name = '鹿杖客' or name = '宋远桥');  
+-- 2、查询入职日期是"2006-01-01"之后的员工信息，及其部门信息  
+select * from emp where entrydate > "2006-01-01";  
+select e.*,d.* from (select * from emp where entrydate > "2006-01-01") e left join dept d on e.dept_id = d.id;
+```
+## 6. 事务
+### 6.1. 简介
+事务是一系列操作的集合，是一个不可分割的工作单位。事务会把所有的操作作为一个整体一起向系统提交或撤销操作请求，即``这些操作要么同时操作成功，要么同时操作失败。
+### 6.2. 事务操作
+``注：在MySQL中事务默认为自动提交。
+操作指令如下:
+```SQL
+方式一：
 
+start transaction; 或 begin; -- 1、开启事务
 
+commit; -- 2、提交事务
 
+rollback; -- 3、回滚事务
+
+方式二：
+select @@autocommit; -- 查询当前的事务提交状态，MySQL默认为1
+
+set @@autocommit = 1; -- 如需设置为手动，将1改为0即可
+```
+示例代码如下:
+```SQL
+-- ---------------------------- 事务操作（张三给李四转账1000元） ------------------------------ 数据准备  
+create table account(  
+    id int auto_increment primary key comment '主键ID',  
+    name varchar(10) comment '姓名',  
+    money int comment '余额'  
+) comment '账户表';  
+insert into account(id, name, money) VALUES (null,'张三',2000),(null,'李四',2000);  
+  
+-- 恢复数据  
+update account set money = 2000 where account.name = '张三' or account.name = '李四';  
+  
+-- ------------------方式一------------------  
+  
+-- MySQL默认自动提交事务  
+select @@autocommit;  
+-- 手动控制事务  
+set @@autocommit = 1; -- 如需设置为手动，将1改为0即可  
+  
+-- 转账操作  
+-- 1.查询张三余额  
+select money from account where account.name = '张三';  
+  
+-- 2.张三转出1000  
+update account set money = money - 1000 where account.name = '张三';  
+  
+-- 3.李四收入1000  
+update account set money = money + 1000 where account.name = '李四';  
+  
+-- 提交事务  
+commit;  
+  
+-- 回滚事务  
+rollback ;  
+  
+-- ------------------方式二------------------  
+  
+start transaction ; -- 开启事务，运行该语句后，在没有运行回滚和提交命令前都属于手动控制事务  
+  
+-- 转账操作  
+-- 1.查询张三余额  
+select money from account where account.name = '张三';  
+  
+-- 2.张三转出1000  
+update account set money = money - 1000 where account.name = '张三';  
+  
+-- 3.李四收入1000  
+update account set money = money + 1000 where account.name = '李四';  
+  
+-- 提交事务  
+commit; -- 运行后该事务结束  
+  
+-- 回滚事务  
+rollback ; -- 当发生异常，数据库的数据未发生改变，若依然运行这一语句 则表示该事务的结束
+```
+### 6.3. 事务四大特性(ACID)
+``注：面试常问
+如下图所示：
+![](Pasted%20image%2020231108222146.png)
+### 6.4. 并发事务问题
+``注：面试常问
+如下图所示：
+![](Pasted%20image%2020231108222956.png)
+
+### 6.5. 事务隔离级别
+``注：面试常问
+如下图所示：
+![](Pasted%20image%2020231108230402.png)
+该节内容较为抽象，[详细讲解视频55](https://www.bilibili.com/video/BV1Kr4y1i7ru?p=55&vd_source=7664b55184fd63da03a03ef6c9be4310)
+
+``注：到此MySQL基础篇结束，进阶篇（面试常问！）关乎于数据库优化，索引等等内容，根据方向选择是否应该继续学习。
