@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4aa95a2db34ed84a",
+        "id": "cbcc6321ddc95489",
         "type": "tabs",
         "children": [
           {
-            "id": "bab0716590b308ed",
+            "id": "47ec042056d3a594",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL基础篇.md",
+                "file": "Python/Python基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin-desc.png",
+                "query": "tag:#pycharm中配置anaconda的虚拟环境",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL基础篇.md",
+                "file": "Python/Python基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL基础篇.md",
+                "file": "Python/Python基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL基础篇.md"
+                "file": "Python/Python基础.md"
               }
             }
           },
@@ -179,25 +179,33 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "bab0716590b308ed",
+  "active": "47ec042056d3a594",
   "lastOpenFiles": [
-    "MySQL/Assets/Pasted image 20231108230402.png",
+    "Python/数据挖掘.md",
+    "Python/Python基础.md",
+    "Python/Assets/Pasted image 20231113154320.png",
+    "2023-11-13.md",
     "MySQL/MySQL基础篇.md",
+    "Linux/Linux基础.md",
+    "Python/Assets/Pasted image 20231112212400.png",
+    "Python/Assets/Pasted image 20231112161658.png",
+    "Linux/Assets/Pasted image 20231112114305.png",
+    "Linux/Assets/Pasted image 20231112113407.png",
+    "Linux/Assets/Pasted image 20231112105657.png",
+    "Linux/Assets",
+    "Linux",
+    "Obsidian学习/number heading 自动编号插件.md",
+    "Python/Assets",
+    "Python",
+    "MySQL/Assets/Pasted image 20231108230402.png",
     "MySQL/Assets/Pasted image 20231108222956.png",
     "MySQL/Assets/Pasted image 20231108222146.png",
     "MySQL/Pasted image 20231108221951.png",
-    "MySQL/Pasted image 20231108222034.png",
-    "MySQL/Assets/Pasted image 20231106215427.png",
-    "MySQL/Assets/Pasted image 20231106155539.png",
     "MySQL/MySQL进阶篇.md",
     "Obsidian学习/MarkDown格式obsidian版.md",
-    "MySQL/Assets/大数据技术栈思维导图.png",
-    "MySQL/Assets/Pasted image 20231105152001.png",
-    "MySQL/Assets/Pasted image 20231105111921.png",
     "assets",
     "Obsidian学习/Remotely save 插件使用.md",
     "Obsidian学习/Obsdian使用.md",
-    "Obsidian学习/number heading 自动编号插件.md",
     "Obsidian学习/Pasted image 20231105110031.png.md",
     "Obsidian学习/Pasted image 20231105110209.png.md",
     "Other Assets",
@@ -209,11 +217,7 @@
     "assets/svn.jpg.md",
     "Obsidian Skills/笔记本外接显示器.md",
     "Obsidian Skills/自动编号插件.md",
-    "电子书籍/《Linux就该这么学》正式版电子书.pdf",
-    "电子书籍",
-    "新建文件夹",
     "Skill Learning/大数据技术栈思维导图.md",
-    "Skill Learning/大数据技术栈思维导图.png.crdownload",
     "Skill Learning/大数据学习路线.md",
     "MOC Mermiad 教程 Obsidian版.md",
     "Skill Learning/Git教程.md",
