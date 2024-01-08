@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "70737595a4ad8195",
+        "id": "5dd245062cb79bc8",
         "type": "tabs",
         "children": [
           {
-            "id": "f32ba1bb17b933ab",
+            "id": "1d308cc8cf9d2801",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软著/软著说明书结构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79cd47d134a109ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软著/构成.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软著/构成.md",
+                "file": "论文投稿/相关资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软著/构成.md",
+                "file": "论文投稿/相关资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软著/构成.md"
+                "file": "论文投稿/相关资源.md"
               }
             }
           }
@@ -160,10 +143,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "79cd47d134a109ed",
+  "active": "eca053f60f407296",
   "lastOpenFiles": [
-    "软著/软著说明书结构.md",
     "软著/构成.md",
+    "论文投稿/相关资源.md",
+    "论文投稿",
+    "软著/软著说明书结构.md",
     "软著/未命名.md",
     "软著/AttachMent",
     "软著/Template",

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db4691a231571fca",
+        "id": "2a3ac8b7190261e5",
         "type": "tabs",
         "children": [
           {
-            "id": "27375f319c96e24b",
+            "id": "6b1ed1002a1ed08e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python基础.md",
+                "file": "Git&Github/Git&GitHub.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python基础.md",
+                "file": "Git&Github/Git&GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python基础.md",
+                "file": "Git&Github/Git&GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python基础.md"
+                "file": "Git&Github/Git&GitHub.md"
               }
             }
           },
@@ -179,50 +179,53 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "27375f319c96e24b",
+  "active": "6b1ed1002a1ed08e",
   "lastOpenFiles": [
-    "Python/数据挖掘.md",
+    "Python+AI/Pytorch.md",
+    "算法考试/贪心法.md",
+    "算法考试/算法设计动态规划.md",
+    "算法考试/回溯分支界限法.md",
+    "算法考试/第二次作业.md",
+    "算法考试/第一次作业.md",
+    "算法考试/归并排序.png.md",
+    "算法考试",
+    "Python+AI/Assets/Pasted image 20231226211958.png",
+    "Obsidian学习/number heading 自动编号插件.md",
+    "Obsidian学习/Obsdian使用.md",
+    "Obsidian学习/Remotely save 插件使用.md",
+    "Python+AI/Jupyter使用.md",
+    "Python+AI/Python数据挖掘基础.md",
+    "Python+AI/数据挖掘.md",
+    "Python+AI/Python基础.md",
+    "Latex/VScode + LaTex + TexLive 搭建.md",
+    "Latex/Assets/Pasted image 20231218153656.png",
+    "Latex/Assets",
+    "Travel Plan/知识文摘.md",
+    "Latex",
+    "MySQL/MySQL基础篇.md",
+    "Obsidian学习/MarkDown格式obsidian版.md",
+    "Python+AI/Assets/Pasted image 20231126221719.png",
+    "Python+AI/Assets/Pasted image 20231126221551.png",
+    "自然语言处理/学习路线.md",
+    "自然语言处理",
+    "Python+AI/Assets/Pasted image 20231122160831.png",
     "2023-11-13.md",
     "Linux/Linux基础.md",
-    "Python/Python基础.md",
-    "Python/Assets/Pasted image 20231113154320.png",
-    "MySQL/MySQL基础篇.md",
-    "Python/Assets/Pasted image 20231112212400.png",
-    "Python/Assets/Pasted image 20231112161658.png",
+    "Python+AI/Assets/Pasted image 20231113154320.png",
+    "Python+AI/Assets/Pasted image 20231112212400.png",
+    "Python+AI/Assets/Pasted image 20231112161658.png",
     "Linux/Assets/Pasted image 20231112114305.png",
     "Linux/Assets/Pasted image 20231112113407.png",
-    "Linux/Assets/Pasted image 20231112105657.png",
     "Linux/Assets",
     "Linux",
-    "Obsidian学习/number heading 自动编号插件.md",
-    "Python/Assets",
-    "Python",
-    "MySQL/Assets/Pasted image 20231108230402.png",
-    "MySQL/Assets/Pasted image 20231108222956.png",
-    "MySQL/Assets/Pasted image 20231108222146.png",
-    "MySQL/Pasted image 20231108221951.png",
+    "Python+AI/Assets",
+    "Python+AI",
     "MySQL/MySQL进阶篇.md",
-    "Obsidian学习/MarkDown格式obsidian版.md",
     "assets",
-    "Obsidian学习/Remotely save 插件使用.md",
-    "Obsidian学习/Obsdian使用.md",
     "Obsidian学习/Pasted image 20231105110031.png.md",
     "Obsidian学习/Pasted image 20231105110209.png.md",
     "Other Assets",
-    "Git&Github/Assets",
     "Git&Github/Git&GitHub.md",
-    "Git&Github",
-    "Obsidian学习/Assets",
-    "Obsidian学习/Assets",
-    "assets/svn.jpg.md",
-    "Obsidian Skills/笔记本外接显示器.md",
-    "Obsidian Skills/自动编号插件.md",
-    "Skill Learning/大数据技术栈思维导图.md",
-    "Skill Learning/大数据学习路线.md",
-    "MOC Mermiad 教程 Obsidian版.md",
-    "Skill Learning/Git教程.md",
-    "Skill Learning/未命名.md",
-    "Skill Learning/MySQL^约束.md",
-    "Skill Learning/12313212.md"
+    "assets/svn.jpg.md"
   ]
 }
