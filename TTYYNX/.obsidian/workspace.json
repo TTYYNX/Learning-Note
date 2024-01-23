@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2a3ac8b7190261e5",
+        "id": "eff1ceb3a2884d49",
         "type": "tabs",
         "children": [
           {
-            "id": "6b1ed1002a1ed08e",
+            "id": "5fc6f8b64294d390",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pycharm中配置anaconda的虚拟环境",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 565.5
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,9 +179,29 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6b1ed1002a1ed08e",
+  "active": "5fc6f8b64294d390",
   "lastOpenFiles": [
+    "DeepLearning/深度学习.md",
+    "Python+AI/yolo-v5 目标检测.md",
+    "DeepLearning",
+    "股票/股票基础知识.md",
+    "股票/Asset/Pasted image 20240120190206.png",
+    "股票/Asset/Pasted image 20240120185123.png",
+    "股票/Asset/Pasted image 20240120184519.png",
+    "股票/Asset/Pasted image 20240120183904.png",
+    "股票/Asset/Pasted image 20240120183111.png",
+    "股票/Asset/Pasted image 20240120182544.png",
+    "股票/未命名.md",
+    "股票/Asset",
+    "股票/Asset/Pasted image 20240120182413.png",
     "Python+AI/Pytorch.md",
+    "股票",
+    "Python+AI/Python基础.md",
+    "Python+AI/Assets/Pasted image 20240112223519.png",
+    "Python+AI/Python数据挖掘基础.md",
+    "Linux/Linux基础.md",
+    "Python+AI/Jupyter使用.md",
+    "Git&Github/Git&GitHub.md",
     "算法考试/贪心法.md",
     "算法考试/算法设计动态规划.md",
     "算法考试/回溯分支界限法.md",
@@ -193,10 +213,7 @@
     "Obsidian学习/number heading 自动编号插件.md",
     "Obsidian学习/Obsdian使用.md",
     "Obsidian学习/Remotely save 插件使用.md",
-    "Python+AI/Jupyter使用.md",
-    "Python+AI/Python数据挖掘基础.md",
     "Python+AI/数据挖掘.md",
-    "Python+AI/Python基础.md",
     "Latex/VScode + LaTex + TexLive 搭建.md",
     "Latex/Assets/Pasted image 20231218153656.png",
     "Latex/Assets",
@@ -204,28 +221,11 @@
     "Latex",
     "MySQL/MySQL基础篇.md",
     "Obsidian学习/MarkDown格式obsidian版.md",
-    "Python+AI/Assets/Pasted image 20231126221719.png",
-    "Python+AI/Assets/Pasted image 20231126221551.png",
     "自然语言处理/学习路线.md",
     "自然语言处理",
-    "Python+AI/Assets/Pasted image 20231122160831.png",
     "2023-11-13.md",
-    "Linux/Linux基础.md",
-    "Python+AI/Assets/Pasted image 20231113154320.png",
-    "Python+AI/Assets/Pasted image 20231112212400.png",
-    "Python+AI/Assets/Pasted image 20231112161658.png",
-    "Linux/Assets/Pasted image 20231112114305.png",
-    "Linux/Assets/Pasted image 20231112113407.png",
     "Linux/Assets",
     "Linux",
-    "Python+AI/Assets",
-    "Python+AI",
-    "MySQL/MySQL进阶篇.md",
-    "assets",
-    "Obsidian学习/Pasted image 20231105110031.png.md",
-    "Obsidian学习/Pasted image 20231105110209.png.md",
-    "Other Assets",
-    "Git&Github/Git&GitHub.md",
-    "assets/svn.jpg.md"
+    "Python+AI/Assets"
   ]
 }
