@@ -37,7 +37,7 @@ class Mydata(Dataset):  # 创建一个类继承Dataset  重写里面的相关方
         self.img_path = os.listdir(self.path) # 将文件夹的内容放入一个列表中  
   
     def __getitem__(self, idx):  
-        img_name = self.img_path[idx] #获取图片的名字  
+        img_name = self.img_path[idx] # 获取图片的名字  
         img_item_path = os.path.join(self.root_dir, self.label_dir, img_name) #根据名字定位到图片的位置  
         img = Image.open(img_item_path)# 打开图片  
         label = self.label_dir # 标签  
